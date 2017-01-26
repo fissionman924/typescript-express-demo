@@ -1,0 +1,21 @@
+{
+  "name": "ts-node",
+  "version": "1.0.0",
+  "description": "Demo application to showcase typescript in server-side application",
+  "main": "index.js",
+  "scripts": {
+    "start": "ntsc && node dist/server.js"
+  },
+  "author": "Nathaniel Lord",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "0.0.33",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.46"
+  }
+}
